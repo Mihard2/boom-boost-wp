@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head();?>
-    <title>INDEX boom-boost</title>
+    <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
 </head>
 
 <body>
@@ -81,14 +81,11 @@
                             </filter>
                         </defs>
                     </svg></a>
-                <div class="header__currency">
-                    <a class="header__currency-switch header__currency-switch--active" href="#">
-                        EU
-                    </a>
-                    <a class="header__currency-switch" href="#">
-                        USA
-                    </a>
-                </div>
+
+
+                <?= do_shortcode('[woo_multi_currency_plain_horizontal]');?>
+
+
                 <a class="header__login" href="<?= home_url();?>">
                     <div class=" header__login-icon icons-main icons-main__login">
                     </div>
@@ -99,10 +96,7 @@
                     </div>
                     <div class="header__cart-total">€675</div>
                 </a>
-                <form class="header__search">
-                    <input type="text" name="search-form" id="search-form" placeholder="I look for...">
-                    <input class="icons-main icons-main__searche" type="submit" value="">
-                </form>
+                <?php get_search_form($args); ?>
             </div>
             <div class="header__support-fixed">
                 <div class="header__support-wrapper">
@@ -120,10 +114,7 @@
                     </div>
                     <div class="header__trust-counter">TrustScore <span> 9.8 </span>Reviews <span> 484 </span></div>
                 </a>
-                <form class="header__search">
-                    <input type="text" name="search-form" id="search-form" placeholder="I look for...">
-                    <input class="icons-main icons-main__searche" type="submit" value="">
-                </form>
+                <?php get_search_form($args); ?>
                 <div class="header__support">
                     <div class="header__support-title">support 24/7</div>
                     <div class="header__support-wrapper">
@@ -133,14 +124,13 @@
                         <a class="header__support-link icons-main icons-main__skype" href="#"> </a>
                     </div>
                 </div>
-                <div class="header__currency">
-                    <a class="header__currency-switch header__currency-switch--active" href="#">
-                        Europe
-                    </a>
-                    <a class="header__currency-switch" href="#">
-                        USA
-                    </a>
-                </div>
+                
+                
+
+                <?= do_shortcode('[woo_multi_currency_plain_horizontal]');?>
+
+
+
                 <div class="header__login">
                     <a class="header__login-icon icons-main icons-main__login"></a>
                     <div class="header__login-wrapp">
