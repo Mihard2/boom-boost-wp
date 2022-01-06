@@ -1,0 +1,10 @@
+2021-12-12T07:57:45+00:00 CRITICAL Uncaught Error: Call to undefined function the_post_thumbnail_urll() in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/front-page.php:62
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#3 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/front-page.php на строке 62
+
+2021-12-12T16:23:15+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/search.php на строке 41
+

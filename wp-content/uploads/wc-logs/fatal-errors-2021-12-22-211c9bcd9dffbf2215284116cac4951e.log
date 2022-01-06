@@ -1,0 +1,33 @@
+2021-12-22T00:44:23+00:00 CRITICAL syntax error, unexpected '}' в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 23
+
+2021-12-22T00:46:50+00:00 CRITICAL syntax error, unexpected end of file, expecting ';' or ',' в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/template-parts/headers/product-header.php на строке 1
+
+2021-12-22T00:57:35+00:00 CRITICAL syntax error, unexpected '?>' в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 20
+
+2021-12-22T01:09:45+00:00 CRITICAL Uncaught Error: Call to undefined function do_actio() in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:20
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php(1): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#7 {main}
+  thr в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 20
+
+2021-12-22T01:23:03+00:00 CRITICAL Uncaught Error: Call to a member function is_on_sale() on string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/single-product/sale-flash.php:25
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1656): wc_get_template('single-product/...')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/class-wp-hook.php(303): woocommerce_show_product_sale_flash('')
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php(43): do_action( в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/single-product/sale-flash.php на строке 25
+
+2021-12-22T23:13:49+00:00 CRITICAL require_once(): Failed opening required '/home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/compatibility-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-extra-product-options-setup.php на строке 161
+
+2021-12-22T23:13:49+00:00 CRITICAL require_once(): Failed opening required '/home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/compatibility-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-extra-product-options-setup.php на строке 161
+
+2021-12-22T23:13:50+00:00 CRITICAL require_once(): Failed opening required '/home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce-tm-extra-product-options/include/functions/compatibility-functions.php' (include_path='.:/opt/alt/php74/usr/share/pear') в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-extra-product-options-setup.php на строке 161
+

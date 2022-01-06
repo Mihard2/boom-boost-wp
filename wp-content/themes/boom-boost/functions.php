@@ -49,3 +49,45 @@ add_action( 'widgets_init', 'mytheme_widgets_init' );
 add_filter( 'gutenberg_use_widgets_block_editor', '__return_false' );
 add_filter( 'use_widgets_block_editor', '__return_false' );
 // включение меню виджетов в адмике 
+
+// удаление лишних хуков 
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
+remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
+remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_sale_flash', 10);
+remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20);
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50);
+
+// присвоение классов определенным страницам
+add_action('page_class', 'my_class_name');
+function my_class_name() {
+    if(is_product()) {
+        echo 'prod-page';
+    }
+}
+
+// ПЕРЕПОДКЛЮЧЕНИЕ ХУКОВ В КАСТОМНЫХ МЕСТАХ 
+
+// хлебные крошки в записях (товарах)
+add_action('woocommerce_breadcrumb_for-prod', 'woocommerce_breadcrumb', 5);
+
+add_action( 'prod_main_info', 'woocommerce_template_single_title', 5 );
+add_action( 'prod_main_info', 'woocommerce_template_single_price', 10 );
+
+add_action( 'prod_card_info', 'woocommerce_template_single_title', 5 );
+add_action( 'prod_card_info', 'woocommerce_template_single_rating', 10 );
+
+add_action( 'add_to_cart', 'woocommerce_template_loop_add_to_cart', 5 );
+add_action( 'add_to_cart', 'woocommerce_template_single_add_to_cart', 10 );
+
+// put this in functions.php, it will produce code before the form
+add_action('woocommerce_after_single_product','show_cart_summary',100);
+
+// ПЕРЕПОДКЛЮЧЕНИЕ ХУКОВ В КАСТОМНЫХ МЕСТАХ 
+ 
+
+// gets the cart template and outputs it before the form
+function show_cart_summary( ) {
+  wc_get_template_part( 'cart/cart' );
+}

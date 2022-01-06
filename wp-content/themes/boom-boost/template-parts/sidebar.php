@@ -1,3 +1,9 @@
+<?php
+    /*
+     Template Name: Sidebar
+    */
+?>
+
 <div class="sidebar-block">
     <div class="main-menu--fixed">
         <div class="main-menu">

@@ -1,11 +1,12 @@
+</main>
 <footer class="container footer">
     <div class="privacy">World of Warcraft tm and Blizzard Entertainment are registered trademarks of Blizzard
         Entertainment Inc. In U.S.A. and/or other countries.These terms and all related materials, logos, and
         images are copyright © Blizzard Entertainment. Cakeboost is in no way associated with or endorsed by
         Blizzard Entertainment™. SkipGrind is not selling wow ingame items, only offers you different services
         to make your ingame skill better and gifting you ingame items </div>
-<a class="footer__logo" href="/"><svg
-            width="100%" height="100%" viewBox="0 0 120 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a class="footer__logo" href="/"><svg width="100%" height="100%" viewBox="0 0 120 61" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
             <g filter="url(#filter0_d)">
                 <path
                     d="M57.5626 3.55799C57.1705 3.42273 56.7456 3.5918 56.5495 3.96377L55.5201 6.46608C55.3404 6.90568 55.5201 7.41291 55.945 7.6158C56.141 7.70034 56.3861 7.71724 56.5822 7.6327C56.7946 7.54817 56.958 7.37909 57.0397 7.1762L58.0692 4.65698C58.2326 4.21738 58.0038 3.72706 57.5626 3.55799Z"
@@ -69,10 +70,10 @@
             </defs>
         </svg></a>
     <div class="footer__menu">
-<a href="/">Blog</a>
-<a href="/">Contacts us</a>
-<a href="/">Work with us</a>
-<a href="/">FAQ
+        <a href="/">Blog</a>
+        <a href="/">Contacts us</a>
+        <a href="/">Work with us</a>
+        <a href="/">FAQ
         </a></div>
     <div class="footer__payments"> <span>Payment methods: </span>
         <div class="icons-main icons-main__bitcoin" href="/"> </div>
@@ -83,7 +84,7 @@
     </div>
     <div class="footer__separator"> </div>
     <div class="footer__policy"> <a href="/">Privacy policy</a>
-<a href="/">Terms and Conditions</a></div>
+        <a href="/">Terms and Conditions</a></div>
 </footer>
 </div>
 </div>

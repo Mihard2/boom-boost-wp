@@ -1,0 +1,171 @@
+2021-12-13T14:14:27+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php:2
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#3 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php на строке 2
+
+2021-12-13T14:14:47+00:00 CRITICAL Uncaught Error: Call to a member function get_title() on string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php:2
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#3 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php на строке 2
+
+2021-12-13T14:26:38+00:00 CRITICAL syntax error, unexpected '}' в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 179
+
+2021-12-13T21:06:35+00:00 CRITICAL syntax error, unexpected end of file в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 195
+
+2021-12-13T21:28:19+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6  в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:29:01+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6  в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:29:09+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6  в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:29:18+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php(1): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+# в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:29:50+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php(1): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+# в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:31:01+00:00 CRITICAL Uncaught Error: Call to a member function get_price_html() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/loop/price.php:25
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1377): wc_get_template('loop/price.php')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/search.php(27): woocommerce_template_loop_price()
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#6 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/loop/price.php на строке 25
+
+2021-12-13T21:31:27+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php(1): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+# в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:31:36+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:158
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/single-product.php(1): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+# в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 158
+
+2021-12-13T21:40:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_term_meta(), 0 passed in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php on line 161 and at least 1 expected in /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/taxonomy.php:1353
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php(161): get_term_meta()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once('/home/u24660466...')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#5 /home/u246604664/domains/balakleenkom.com/pub в /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/taxonomy.php на строке 1353
+
+2021-12-13T21:41:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_term_meta(), 0 passed in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php on line 161 and at least 1 expected in /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/taxonomy.php:1353
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php(161): get_term_meta()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once('/home/u24660466...')
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#5 /home/u246604664/domains/balakleenkom.com/pub в /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/taxonomy.php на строке 1353
+
+2021-12-13T21:42:50+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:154
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6  в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 154
+
+2021-12-13T21:42:52+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:154
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/front-page.php(7): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#7 {m в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 154
+
+2021-12-13T21:43:02+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:154
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/front-page.php(7): get_header()
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#6 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#7 {m в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 154
+
+2021-12-13T21:43:53+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php:157
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(770): require_once()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(716): load_template('/home/u24660466...', true, Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/archive-product.php(20): get_header('shop')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/taxonomy-product-cat.php(22): wc_get_template('archive-product...')
+#6  в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 157
+
+2021-12-13T21:49:55+00:00 CRITICAL syntax error, unexpected end of file в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 195
+
+2021-12-13T21:49:56+00:00 CRITICAL syntax error, unexpected end of file в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 195
+
+2021-12-13T21:49:56+00:00 CRITICAL syntax error, unexpected end of file в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/header.php на строке 195
+
