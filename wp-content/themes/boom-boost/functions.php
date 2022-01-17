@@ -51,13 +51,8 @@ add_filter( 'use_widgets_block_editor', '__return_false' );
 // включение меню виджетов в адмике 
 
 // удаление лишних хуков 
-remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);
-remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb', 20);
-remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_sale_flash', 10);
-remove_action( 'woocommerce_before_single_product_summary', 'woocommerce_show_product_images', 20);
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_rating', 10);
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40);
-remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50);
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_product_data_tabs', 10);
+
 
 // присвоение классов определенным страницам
 add_action('page_class', 'my_class_name');
@@ -91,3 +86,45 @@ add_action('woocommerce_after_single_product','show_cart_summary',100);
 function show_cart_summary( ) {
   wc_get_template_part( 'cart/cart' );
 }
+
+
+// ПРОИЗВОЛЬНЫЕ ТИПЫ ЗАПИСЕЙ 
+
+// произвольныетипы записей FAQ
+
+function wptp_create_faq_post_type() {
+
+    // faq custom post type
+    register_post_type( 'faq', array(
+        'labels' => array(
+        'name' => 'FAQs',
+        'singular_name' => 'FAQ'
+    ),
+        'has_archive' => true,
+        'public' => true,
+        'hierarchical' => true,
+        'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail','page-attributes' ),
+        'exclude_from_search' => true,
+        'capability_type' => 'post',
+        'rewrite' => array ('slug' => 'faqs' ),
+        )
+    );
+
+}
+add_action( 'init', 'wptp_create_faq_post_type' );
+
+// ПРОИЗВОЛЬНЫЕ ТИПЫ ЗАПИСЕЙ 
+
+
+function post_tags_within_content() {
+    global $post;
+    $tags = get_the_tag_list( '' , ' ', '', $post->ID );
+    return $tags;
+}
+add_action('tags', 'post_tags_within_content' );
+
+add_filter('wpcf7_form_elements', function($content) {
+    $content = preg_replace('/<(span).*?class="\s*(?:.*\s)?wpcf7-form-control-wrap(?:\s[^"]+)?\s*"[^\>]*>(.*)<\/\1>/i', '\2', $content);
+
+    return $content;
+});

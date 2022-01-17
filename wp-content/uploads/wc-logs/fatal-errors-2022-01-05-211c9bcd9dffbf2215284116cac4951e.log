@@ -1,0 +1,55 @@
+2022-01-05T22:00:31+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/functions.php:74
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/class-wp-hook.php(303): woocommerce_category_image('')
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php(30): do_action('teeest')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(772): require('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/u24660466...', false)
+#6 /home/u246604664/domains/balaklee в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/functions.php на строке 74
+
+2022-01-05T22:00:45+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/functions.php:74
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/class-wp-hook.php(303): woocommerce_category_image('')
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php(30): do_action('teeest')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(772): require('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/u24660466...', false)
+#6 /home/u246604664/domains/balaklee в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/functions.php на строке 74
+
+2022-01-05T22:28:27+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php:39
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(772): require()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/u24660466...', false)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/single-product.php(38): wc_get_template_part('content', 'single-product')
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#6 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php на строке 39
+
+2022-01-05T22:32:23+00:00 CRITICAL Uncaught Error: Call to a member function get_categories() on null in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php:35
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(772): require()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/u24660466...', false)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/single-product.php(38): wc_get_template_part('content', 'single-product')
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#6 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php на строке 35
+
+2022-01-05T22:35:38+00:00 CRITICAL syntax error, unexpected ';', expecting ')' в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php на строке 42
+
+2022-01-05T23:02:49+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php:46
+Stack trace:
+#0 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template.php(772): require()
+#1 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/home/u24660466...', false)
+#2 /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/single-product.php(38): wc_get_template_part('content', 'single-product')
+#3 /home/u246604664/domains/balakleenkom.com/public_html/wp-includes/template-loader.php(106): include('/home/u24660466...')
+#4 /home/u246604664/domains/balakleenkom.com/public_html/wp-blog-header.php(19): require_once('/home/u24660466...')
+#5 /home/u246604664/domains/balakleenkom.com/public_html/index.php(17): require('/home/u24660466...')
+#6 {main}
+  thrown в /home/u246604664/domains/balakleenkom.com/public_html/wp-content/themes/boom-boost/woocommerce/content-single-product.php на строке 46
+

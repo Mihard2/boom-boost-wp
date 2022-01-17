@@ -1,6 +1,6 @@
-<a class="card-product <?php post_class("inloop-product"); ?>" href="<?php the_permalink(); ?>">
+<a class="card-product" href="<?php the_permalink(); ?>">
     <img class="card-product__image" src="<?php the_post_thumbnail_url()?>" alt="">
-    <div class="card-product__title">[<?php the_title(); ?></div>
+    <div class="card-product__title"><?php the_title(); ?></div>
     <div class="card-product__subTitle"></div>
     <div class="card-product__price-block">
         <?php woocommerce_template_loop_price(); ?>

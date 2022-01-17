@@ -1,6 +1,6 @@
-<div class="top">
+<div class="top top-front">
     <div class="top-bg">
-        <img src="<?php the_post_thumbnail_url('full');?>;"></img>
+        <img src="<?php the_post_thumbnail_url('full');?>"></img>
     </div>
     <div class="top__content">
         <div class="trust-support">
@@ -10,8 +10,10 @@
                 </div>
                 <div class="header__trust-counter">TrustScore <span> 9.8 </span>Reviews <span> 484
                     </span></div>
-            </a></div>
-        <?php the_content(); ?>
+            </a>
+        </div>
+        <h1>Secure and efficient WoW Boosting and Coaching Services</h1>
+        <div class="description">Buy WoW Boosts and carries from the most customer oriented website</div>
         <a class="link link-bg " href="#">explore the catalog</a>
         <div class="event">
             <div class="event__name">

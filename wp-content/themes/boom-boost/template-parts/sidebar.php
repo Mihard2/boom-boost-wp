@@ -74,7 +74,7 @@
                 </svg></a>
             <div class="challenge">Choose your game</div>
             <div class="main-menu__title">
-                <img src="static/img/logo-icons/menuTitleIcon.png" alt="">
+                <img src="<?= get_template_directory_uri();?>/assets/img/logo-icons/menuTitleIcon.png" alt="">
                 World of Warcraft Shadowlands / Classic
             </div>
 

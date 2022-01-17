@@ -31,9 +31,13 @@
                 Up</a>
         </div>
     </div>
-    <a class="header__cart link link-bg" href="<?php echo esc_url( wc_get_cart_url() ); ?>">
-        <div class="header__cart-counter icons-main icons-main__cart"><span class="header__cart-counterTotal">3</span>
+    <a class="header__cart link link-bg cart_totals" href="<?php echo esc_url( wc_get_cart_url() ); ?>">
+        <div class="header__cart-counter icons-main icons-main__cart"><span class="header__cart-counterTotal">
+         <?= WC()->cart->get_cart_contents_count();?>
+        </span>
         </div>
-        <div class="header__cart-total">€675</div>
+        <div class="header__cart-total">
+            <?= WC()->cart->get_cart_subtotal();?>
+        </div>
     </a>
 </div>

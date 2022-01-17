@@ -21,6 +21,8 @@
                         get_template_part("template-parts/tops/front-top");
                     } elseif(is_product()){
                         get_template_part("template-parts/tops/product-top");
+                    } elseif(is_post_type_archive('faq')){
+                        get_template_part("template-parts/tops/faq-top");
                     } else {
                         get_template_part("template-parts/tops/top");
                     }?>

@@ -48,32 +48,9 @@ if ( post_password_required() ) {
 			</div>
 			<div class="top-content__desc">
 				<?php do_action('prod_main_info');?>
-
-				<!-- <?php
-				/**
-				 * Hook: woocommerce_before_single_product.
-				 *
-				 * @hooked woocommerce_output_all_notices - 10
-				 */
-				do_action( 'woocommerce_before_single_product' );
-
-				/**
-				 * Hook: woocommerce_single_product_summary.
-				 *
-				 * @hooked woocommerce_template_single_title - 5
-				 * @hooked woocommerce_template_single_rating - 10
-				 * @hooked woocommerce_template_single_price - 10
-				 * @hooked woocommerce_template_single_excerpt - 20
-				 * @hooked woocommerce_template_single_add_to_cart - 30
-				 * @hooked woocommerce_template_single_meta - 40
-				 * @hooked woocommerce_template_single_sharing - 50
-				 * @hooked WC_Structured_Data::generate_product_data() - 60
-				 */
-				do_action( 'woocommerce_single_product_summary' );
-				?> -->
 			</div>
 			<div class="top-content__options">
-				<?php do_action('extra_product_options')?>
+				<?php do_action('extra_product_options');?>
 			</div>
 			
 			<div class="top-content__card">
@@ -92,6 +69,17 @@ if ( post_password_required() ) {
 		</div>
 	</div>
 
+	<section class="container content-block__description">
+		<!-- <div class="content-block__header">
+              <h2 class="content-block__title">description</h2>
+        </div> -->
+    	<!-- <?php get_template_part("template-parts/description");?> -->
+  	</section>
+	
+	<!-- <section class="container content-block__trustpilot">
+		<?php get_template_part("template-parts/trustpilot-slider");?>
+  	</section> -->
+
 	<?php
 	/**
 	 * Hook: woocommerce_after_single_product_summary.
@@ -100,8 +88,30 @@ if ( post_password_required() ) {
 	 * @hooked woocommerce_upsell_display - 15
 	 * @hooked woocommerce_output_related_products - 20
 	 */
-	do_action( 'woocommerce_after_single_product_summary' );
+	// do_action( 'woocommerce_after_single_product_summary' );
 	?>
+
+	<!-- <section class="container content-block__advantages">
+	  <?php get_template_part("template-parts/whyChoose");?>
+  	</section> -->
+
+	<!-- <section class="container content-block__process-work">
+		<?php get_template_part("template-parts/process-work");?>
+	</section> -->
+
+	<!-- <section class="container content-block__faq">
+		<div class="content-block__header">
+		<h2 class="content-block__title">faq</h2>
+		<a class="link link-bg--transparent all-content" href="/faqs">check all
+			faq</a>
+		</div>
+		<?php get_template_part("template-parts/FAQ-front");?>
+	</section> -->
+	
+	<!-- <section class="container content-block__sub-form">
+    	<?php get_template_part("template-parts/forms/form-subscribe");?>
+  	</section> -->
+
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>

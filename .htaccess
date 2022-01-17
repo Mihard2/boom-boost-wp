@@ -1,4 +1,26 @@
-#This Apache config file was created by Duplicator Installer on 2021-11-21 00:50:08.
+# BEGIN LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+<IfModule LiteSpeed>
+RewriteEngine on
+CacheLookup on
+RewriteRule .* - [E=Cache-Control:no-autoflush]
+RewriteRule \.litespeed_conf\.dat - [F,L]
+
+### marker DROPQS start ###
+CacheKeyModify -qs:fbclid
+CacheKeyModify -qs:gclid
+CacheKeyModify -qs:utm*
+CacheKeyModify -qs:_ga
+### marker DROPQS end ###
+
+</IfModule>
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END LSCACHE
+# BEGIN NON_LSCACHE
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+## LITESPEED WP CACHE PLUGIN - Do not edit the contents of this block! ##
+# END NON_LSCACHE
+#This Apache config file was created by Duplicator Installer on 2022-01-11 09:09:06.
 #The original can be found in archived file with the name .htaccess__[HASH]
 
 # BEGIN WordPress
@@ -9,11 +31,5 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
-
-php_value upload_max_filesize 128M
-php_value post_max_size 128M
-php_value memory_limit 256M
-php_value max_execution_time 300
-php_value max_input_time 300
 </IfModule>
 # END WordPress

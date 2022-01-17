@@ -538,6 +538,8 @@ function wp_set_lang_dir() {
  *
  * @global wpdb $wpdb WordPress database abstraction object.
  */
+
+
 function require_wp_db() {
 	global $wpdb;
 
