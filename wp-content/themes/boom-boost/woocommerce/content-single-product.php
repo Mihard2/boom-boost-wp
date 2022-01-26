@@ -62,7 +62,8 @@ if ( post_password_required() ) {
 					</div>
                   </div>
 					<?php do_action('extra_product_total')?>
-					<?php do_action('add_to_cart');?>
+					<a href="<?php echo $product->add_to_cart_url() ?>" value="<?php echo esc_attr( $product->get_id() ); ?>" class="ajax_add_to_cart add_to_cart_button link link-bg" data-product_id="<?php echo get_the_ID(); ?>" data-product_sku="<?php echo esc_attr($sku) ?>" aria-label="Add “<?php the_title_attribute() ?>” to your cart"> add to basket </a>
+					<?php do_action('add_to_cart_on_page_product');?>
 				</div>			
 			</div>
 
@@ -112,6 +113,7 @@ if ( post_password_required() ) {
     	<?php get_template_part("template-parts/forms/form-subscribe");?>
   	</section> -->
 
+	 <?= do_shortcode('[woocommerce_checkout]') ?> 
 </div>
 
 <?php do_action( 'woocommerce_after_single_product' ); ?>

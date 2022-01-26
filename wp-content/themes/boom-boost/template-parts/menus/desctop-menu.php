@@ -19,6 +19,7 @@
 
 
     <?= do_shortcode('[woo_multi_currency_plain_horizontal]');?>
+    <!-- <?= do_shortcode('[woocs sd=1]');?> -->
 
 
 

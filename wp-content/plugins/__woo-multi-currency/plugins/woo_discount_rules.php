@@ -40,7 +40,25 @@ class WOOMULTI_CURRENCY_F_Plugin_Woo_Discount_Rules {
 				$this,
 				'advanced_woo_discount_rules_get_regular_price'
 			), 10, 2 );
+			add_filter( 'advanced_woo_discount_rules_bulk_table_ranges', array(
+				$this,
+				'convert_fixed_discount_table'
+			), 10, 3 );
 		}
+	}
+
+	public function convert_fixed_discount_table( $response_ranges, $rules, $product ) {
+		if ( count( $response_ranges ) && ! empty( $rules ) && ! empty( $product ) ) {
+			foreach ( $response_ranges as &$range ) {
+				if ( isset( $range['discount_type'] ) ) {
+					if ( $range['discount_type'] === 'flat' || $range['discount_type'] === 'fixed_price' ) {
+						$range['discount_value'] = wmc_get_price( $range['discount_value'] );
+					}
+				}
+			}
+		}
+
+		return $response_ranges;
 	}
 
 	public function advanced_woo_discount_rules_get_regular_price( $price, $product ) {

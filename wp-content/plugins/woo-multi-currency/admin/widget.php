@@ -25,11 +25,13 @@ class WOOMULTI_CURRENCY_F_Admin_Widget {
 	/**
 	 * Init widget
 	 */
-	public function widgets_init() {
-		register_widget( 'WMC_Widget' );
-		register_widget( 'WMC_Widget_Rates' );
-	}
 
+	// ЭТОТ КОД БЫЛ ЗАКОМЕНТИРОВАН ДЛЯ РАБОТОСПОСОБНОСТИ И СОВМЕСТИМОСТИ TM EXTRA BOOST OPTIONS И MULTICURRENCY 
+	public function widgets_init() {
+		// register_widget( 'WMC_Widget' );
+		// register_widget( 'WMC_Widget_Rates' );
+	}
+	// ЭТОТ КОД БЫЛ ЗАКОМЕНТИРОВАН ДЛЯ РАБОТОСПОСОБНОСТИ И СОВМЕСТИМОСТИ TM EXTRA BOOST OPTIONS И MULTICURRENCY 
 
 }
 
